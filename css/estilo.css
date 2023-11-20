@@ -1,14 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* globais */
 body{
+    font-family: arial;
+    height: 100%;
+
     
 }
 header{
-    width: 10000px;
+    padding: 1%;
     background-color: #0FCE68;
+    margin:0;
+    display: flex;
+    justify-content: center;
+	position:fixed;
+    width:100%;
+    top: 0;
+}
+header button{
+    color: #ffffff;
+    background-color:#0FCE68; 
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: #0FCE68;
 }
 
 footer{
-
+    padding: 1%;
+    background-color: #0FCE68;
+    color:#fff;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 /* classes */
@@ -16,31 +46,101 @@ footer{
 /* index */
 
 .financiamento{
+    
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
+     
+}
+.botao{
+    display: flex;
+}
 
+.botao button{
+    color: #ffffff;
+    background-color:#0FCE68; 
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: #0FCE68;
+    margin: 40px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    margin: 0 40px;
+    padding-bottom: 20px;
+}
+.titulo h1{
+    margin: 0  ;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#titulo{
+
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    
+}
+#titulo h1{
+
+    padding: 20px; 
 }
 
 .prestacoes{
-
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
 }
 
 .amortizacao{
-
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
 }
 
 /* prestacao e amortizacao */
 
 .SAC{
-    
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
+     
 }
 
 /* tipos financionamento */
 
 .PRICE{
-
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
+     
 }
 
 /* dicas */
 
 .DICAS{
-    
+    margin: 30px;
+    bottom: 50px;
+    padding-top: 50px;
+    background-color: #ffffd9;
+    border-radius: 10px;
+     
 }
