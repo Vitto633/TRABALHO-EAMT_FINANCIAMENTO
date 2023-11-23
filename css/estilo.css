@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+
     margin: 0;
     box-sizing: border-box;
 }
@@ -29,6 +29,7 @@ header button{
     font-size: 24px;
     border-radius: 10px;
     border: #0FCE68;
+
 }
 
 footer{
@@ -37,8 +38,9 @@ footer{
     color:#fff;
     justify-content: center;
     bottom: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
+    
 }
 
 /* classes */
@@ -46,13 +48,15 @@ footer{
 /* index */
 
 .financiamento{
-    
-    margin: 30px;
-    bottom: 50px;
+    width: 50%;
+    margin: 100px 25% ;
     padding-top: 50px;
     background-color: #ffffd9;
     border-radius: 10px;
-     
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    
 }
 .botao{
     display: flex;
@@ -67,80 +71,110 @@ footer{
     border-radius: 10px;
     border: #0FCE68;
     margin: 40px;
-    
     justify-content: center;
     align-items: center;
+    
+}
+.bt button{
+
+    position: fixed;
+    right: 20%;
 }
 .texto{
-    margin: 0 40px;
+    margin: 0 20%;
     padding-bottom: 20px;
+    width: 60%;
+    
+    
+}
+.texto img{
+    margin: 20px;
+
+}
+.texto p{
+    font-size: 18px;
+    font-weight: bold;
 }
 .titulo h1{
-    margin: 0  ;
+    margin: 20px;
     justify-content: center;
     text-align: center;
     font-size: 40px;
     
 }
-
-#titulo{
-
+.titulo p{
+    position: absolute;
     justify-content: center;
     text-align: center;
     font-size: 40px;
     padding-top: 20px;
-    
-}
-#titulo h1{
-
     padding: 20px; 
 }
 
+
 .prestacoes{
-    margin: 30px;
-    bottom: 50px;
+    width: 50%;
+    margin: 100px 25% ;
     padding-top: 50px;
     background-color: #ffffd9;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    
 }
 
 .amortizacao{
-    margin: 30px;
-    bottom: 50px;
+    width: 50%;
+    margin: 100px 25% ;
     padding-top: 50px;
     background-color: #ffffd9;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    
 }
 
 /* prestacao e amortizacao */
 
 .SAC{
-    margin: 30px;
-    bottom: 50px;
-    padding-top: 50px;
+    width: 50%;
+    margin: 100px 25% ;
+    padding-top: 100px;
     background-color: #ffffd9;
     border-radius: 10px;
-     
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    padding-bottom: 100px;
+    
 }
 
 /* tipos financionamento */
 
 .PRICE{
-    margin: 30px;
-    bottom: 50px;
+    width: 50%;
+    margin: 100px 25% ;
     padding-top: 50px;
     background-color: #ffffd9;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: inherit;  
      
 }
 
 /* dicas */
 
 .DICAS{
-    margin: 30px;
-    bottom: 50px;
+    width: 50%;
+    margin: 100px 25% ;
     padding-top: 50px;
     background-color: #ffffd9;
     border-radius: 10px;
-     
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    padding-bottom: 50px;
 }
